@@ -1,0 +1,16 @@
+VandalISL upstream baseline
+
+ISL (Integer Set Library):
+  Version: 0.28
+  Upstream repository: https://repo.or.cz/isl.git
+  Upstream tag: isl-0.28
+
+Reason:
+  ISL is a build-time dependency of GDB (via VandalBinUtils), built against
+  GMP. This baseline matches the version pinned for the VandalSDK toolchain
+  build.
+
+This repository was forked directly from the upstream ISL git repository
+at the tag above; full upstream history is preserved, and the upstream
+remote is retained locally as `isl-upstream` so later releases can be
+pulled with a normal `git fetch isl-upstream <tag>`.
